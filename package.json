@@ -1,0 +1,31 @@
+{
+  "name": "rollUp",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "rollup -c --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.9.0",
+    "rollup": "^0.36.1",
+    "rollup-plugin-commonjs": "^5.0.4",
+    "rollup-plugin-includepaths": "^0.1.6",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-serve": "^0.1.0",
+    "rollup-plugin-typescript": "^0.8.1",
+    "rollup-watch": "^2.5.0"
+  },
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "angular-aria": "^1.5.8",
+    "angular-material": "^1.1.1",
+    "angular-messages": "^1.5.8",
+    "angular-sanitize": "^1.5.8",
+    "angular-ui-router": "^0.3.1"
+  }
+}
